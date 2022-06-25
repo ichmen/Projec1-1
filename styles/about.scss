@@ -1,0 +1,42 @@
+.about {
+  padding: 46px 15px;
+  width: 100%;
+  background: #f4f5f7;
+  @include for-large-up {
+    width: 1400px;
+    padding: 0 130px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background: #f4f5f7;
+  }
+}
+
+.article {
+  @include for-large-up {
+    width: 555px;
+    padding-top: 77px;
+    padding-bottom: 76px;
+  }
+  &:last-child {
+    margin-top: 20px;
+    @include for-large-up {
+      margin-top: 0;
+    }
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    color: #2b292d;
+    margin: 0;
+  }
+  &__text {
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #2b292d;
+    margin-bottom: 0;
+  }
+}
