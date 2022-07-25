@@ -3,7 +3,6 @@
   @include for-large-up {
     position: relative;
     width: 1140px;
-    /* height: 62px; */
     margin: auto;
     display: flex;
     margin-top: 84px;
@@ -11,14 +10,12 @@
   }
   &__content {
     margin: 35px 15px 33px 15px;
-    /* z-index: 1; */
     @include for-large-up {
       position: absolute;
       z-index: 1;
       margin: 0;
     }
   }
-
   &__title {
     font-weight: 700;
     font-size: 50px;
@@ -33,7 +30,6 @@
       line-height: 78px;
       letter-spacing: -0.5px;
       margin: 0;
-      /* z-index: 1; */
     }
   }
   &__description {
@@ -52,7 +48,6 @@
   }
   &__actions {
     margin-top: 30px;
-    /* display: flex; */
     @include for-large-up {
       margin-top: 58px;
       display: flex;
