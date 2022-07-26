@@ -12,4 +12,8 @@
     </ul>
     <h3>Author</h3>
      <li> V.Kolosov 2022 </li>
+<<<<<<< HEAD
       </html>
+=======
+ </html>
+>>>>>>> a1e5008ce03aec3f673c1a611a8695ab971488f5
