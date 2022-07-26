@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
     <h1>Test layout website project</h2>
     <hr />
     <h2><a href="https://github.com/ichmen/Project-1">Project GitHub link </a></h3>
@@ -19,14 +11,5 @@
     </ul>
     <hr />
     <h4>
-      By
-      <style>
-        span {
-          opacity: .7;
-          font-style: italic;
-        }
-      </style>
-      <span> V.Kolosov 2022</span>
+      By V.Kolosov 2022
     </h4>
-  </body>
-</html>
