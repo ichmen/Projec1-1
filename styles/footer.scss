@@ -10,7 +10,7 @@
     }
   }
   &__line {
-    border-top: 1px solid #2b292d;
+    border-top: 1px solid $text-color-dark;
     opacity: 0.1;
     margin: 0;
     margin-top: 40px;
@@ -86,7 +86,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
-    color: #2b292d;
+    color: $text-color-dark;
     margin: 0;
   }
   &__list {
@@ -118,14 +118,14 @@
   margin: auto;
   line-height: 50px;
   text-decoration: none;
-  color: #2b292d;
+  color: $text-color-dark;
   opacity: 0.6;
   font-size: 14px;
   margin-left: 0;
   &__item {
     line-height: 50px;
     text-decoration: none;
-    color: #2b292d;
+    color: $text-color-dark;
     opacity: 0.6;
     font-size: 14px;
     margin-right: 22px;

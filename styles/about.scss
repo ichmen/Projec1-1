@@ -1,14 +1,14 @@
 .about {
   padding: 46px 15px;
   width: 100%;
-  background: #f4f5f7;
+  background: $color-light;
   @include for-large-up {
     width: 1400px;
     padding: 0 130px;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    background: #f4f5f7;
+    background: $color-light;
   }
 }
 .article {
@@ -27,7 +27,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 32px;
-    color: #2b292d;
+    color: $text-color-dark;
     margin: 0;
   }
   &__text {
@@ -35,7 +35,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 32px;
-    color: #2b292d;
+    color: $text-color-dark;
     margin-bottom: 0;
   }
 }
