@@ -1,5 +1,5 @@
   <html>
-    <h1>Test layout website project</h2>
+    <h1>Foundation Layout</h2>
     <h3><a href="https://ichmen.github.io/Project-1/" target="_blank">Project GitHub Pages link </a></h3>
    <p> Layout has both desktop (over 400px width) and mobile (upto 400px width) versions.</p> 
 <h3>Tech stack:</h3>
