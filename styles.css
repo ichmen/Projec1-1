@@ -697,8 +697,11 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  color: rgba(43, 41, 45, 0.6);
   margin-top: 18px;
+}
+.nav-links__list-item {
+  text-decoration: none;
+  color: rgba(43, 41, 45, 0.6);
 }
 
 .footer-links {
