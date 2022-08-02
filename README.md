@@ -1,6 +1,6 @@
   <html>
     <h1>Test layout website project</h2>
-    <h3><a href="https://github.com/ichmen/Project-1">Project GitHub link </a></h3>
+    <h3><a href="https://ichmen.github.io/Project-1/">Project GitHub Pages link </a></h3>
    <p> Layout has both desktop (over 400px width) and mobile (upto 400px width) versions.</p> 
 <h3>Tech stack:</h3>
     <ul>
