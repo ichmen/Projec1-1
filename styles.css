@@ -349,7 +349,7 @@
 .features {
   display: flex;
   position: relative;
-  margin-bottom: 14px;
+  margin-bottom: 110px;
 }
 @media screen and (max-width: 399px) {
   .features {
@@ -576,14 +576,14 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
-  color: #2a282d;
+  color: rgba(43, 41, 45, 0.6);
 }
 .order__terms-link {
   color: #3142c6;
 }
 
 .footer {
-  width: auto;
+  width: 1400px;
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -757,6 +757,13 @@
 .social-links__item:first-child {
   text-decoration: none;
   margin-left: 0;
+}
+
+.social-icon__facebook {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-fb.png");
 }
 
 .logo-vertical {

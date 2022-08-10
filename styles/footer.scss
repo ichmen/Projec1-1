@@ -1,5 +1,5 @@
 .footer {
-  width: auto;
+  width: 1400px;
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -146,12 +146,23 @@
   &__item {
     text-decoration: none;
     margin-left: 20px;
+    // width: 20px;
+    // height: 20px;
     &:first-child {
       text-decoration: none;
       margin-left: 0;
     }
   }
 }
+.social-icon {
+  &__facebook {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/social-fb.png');
+  }
+}
+
 .logo-vertical {
   display: flex;
   flex-direction: column;
