@@ -583,7 +583,7 @@
 }
 
 .footer {
-  width: 1400px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   margin: auto;
